@@ -13,7 +13,7 @@ void main()
 	vector_add(&v, "Bonjour");
 	vector_add(&v, "tout");
 	vector_add(&v, "le"),
-		vector_add(&v, "monde");
+	vector_add(&v, "monde");
 
 	for (i = 0; i < vector_total(&v); i++)
 		printf("%s ", (char*)vector_get(&v, i));
